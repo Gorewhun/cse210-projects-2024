@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Hello, World");
+﻿// Demonstration of for loops 
+
+Console.WriteLine("Hello, World");
 
 for ( int i=1; i <= 10; i +=1)
 {
