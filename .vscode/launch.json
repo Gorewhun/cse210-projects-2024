@@ -17,6 +17,19 @@
         },
 
         {
+            "name": "1_to_10 Project",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-1_to_10-1_to_10",
+            "program": "${workspaceFolder}/sandbox/1_to_10/bin/Debug/net8.0/1_to_10.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/1_to_10",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
             "name": "C# Prep 1",
             "type": "coreclr",
             "request": "launch",
