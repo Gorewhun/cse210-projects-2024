@@ -11,7 +11,7 @@ class Program
 
         // Part 3, Random number generator
         Random randomGenerator = new Random();
-        int magic_number = randomGenerator.Next(1,10);
+        int magic_number = randomGenerator.Next(1,101);
 
 
         int guess = -1;
