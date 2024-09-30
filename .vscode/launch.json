@@ -16,6 +16,19 @@
             "stopAtEntry": false
         },
 
+         {
+            "name": "Sandbox2 Project",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox2-Sandbox2",
+            "program": "${workspaceFolder}/sandbox/Sandbox2/bin/Debug/net8.0/Sandbox2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/Sandbox2",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
         {
             "name": "1_to_10 Project",
             "type": "coreclr",
