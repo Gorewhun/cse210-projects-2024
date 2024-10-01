@@ -1,29 +1,60 @@
 using System;
 
+
 class Program
 {
     static void Main(string[] args)
     {
-        List<double> x = new();
-        // x = [24.0, 25.0, 26.0];
+        // Console.WriteLine($"Howdy Sandbox World!");    
+        Costume nurse = new();
+        nurse.headWear = "face mask";
+        nurse.gloves = "nitrile gloves";
+        nurse.shoes = "orthopedic sneakers";
+        nurse.upperGarment = "scrubs";
+        nurse.lowerGarment = "scrubs";
+        nurse.accessory = "stethoscope";
 
-        Console.WriteLine("Hello Sandbox World!");  
+        Costume detective = new();
+        detective.headWear = "fedora";
+        detective.gloves = "leather gloves";
+        detective.shoes = "loafers";
+        detective.upperGarment = "trenchcoat";
+        detective.lowerGarment = "slacks";
+        detective.accessory = "magnifying glass";
 
-        // Gather data to fill up a list
+        Costume snorkler = new();
+        snorkler.headWear = "goggles";
+        snorkler.gloves = "rubber gloves";
+        snorkler.shoes = "flippers";
+        snorkler.upperGarment = "wetsuit";
+        snorkler.lowerGarment = "wetsuit";
+        snorkler.accessory = "snorkel";
 
-        double input = -1;
-        while(input != 0)
-        {
-            Console.Write("Enter something: ");
-            string input_string = Console.ReadLine();
-            input = double.Parse(input_string);
-            x.Add(input);
-        }
-       
-        foreach (double number in x)
-        {
-            Console.WriteLine(number);
-        }    
+        Costume rancher = new();
+        rancher.headWear = "cowboy hat";
+        rancher.gloves = "work gloves";
+        rancher.shoes = "boots";
+        rancher.upperGarment = "fancy vest";
+        rancher.lowerGarment = "jeans";
+        rancher.accessory = "lasso";
+
+        Costume bagpiper = new();
+        bagpiper.headWear = "glengarry";
+        bagpiper.gloves = "none";
+        bagpiper.shoes = "ghillie brogues";
+        bagpiper.upperGarment = "jacket";
+        bagpiper.lowerGarment = "kilt";
+        bagpiper.accessory = "sporran";
+
+        Console.WriteLine("Nurse costume:");
+        nurse.ShowWardrobe();
+        Console.WriteLine("Detective costume:");
+        detective.ShowWardrobe();
+        Console.WriteLine("Snorkler costume:");
+        snorkler.ShowWardrobe();
+        Console.WriteLine("Rancher costume:");
+        rancher.ShowWardrobe();
+        Console.WriteLine("Bagpiper costume:");
+        bagpiper.ShowWardrobe();
     }
-
 }
