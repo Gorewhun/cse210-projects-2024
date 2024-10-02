@@ -1,23 +1,23 @@
 class Costume
 {
     // attributes (member variables)
-    public string headWear;
-    public string gloves;
-    public string shoes;
-    public string upperGarment;
-    public string lowerGarment;
-    public string accessory;
+    public string _headWear;
+    public string _gloves;
+    public string _shoes;
+    public string _upperGarment;
+    public string _lowerGarment;
+    public string _accessory;
 
     // behaviors (member functions, or *methods*)
     public void ShowWardrobe()
     {
         string output = "";
-        output += "Head gear: " + headWear + "\n";
-        output += "Hand gear: " + gloves + "\n";
-        output += "Foot gear: " + shoes + "\n";
-        output += "Torso covering: " + upperGarment + "\n";
-        output += "Leg covering: " + lowerGarment + "\n";
-        output += "Accessory: " + accessory + "\n";
+        output += "Head gear: " + _headWear + "\n";
+        output += "Hand gear: " + _gloves + "\n";
+        output += "Foot gear: " + _shoes + "\n";
+        output += "Torso covering: " + _upperGarment + "\n";
+        output += "Leg covering: " + _lowerGarment + "\n";
+        output += "Accessory: " + _accessory + "\n";
         Console.WriteLine(output);
     }
 }
