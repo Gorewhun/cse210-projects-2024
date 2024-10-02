@@ -7,44 +7,44 @@ class Program
     {
         // Console.WriteLine($"Howdy Sandbox World!");    
         Costume nurse = new();
-        nurse.headWear = "face mask";
-        nurse.gloves = "nitrile gloves";
-        nurse.shoes = "orthopedic sneakers";
-        nurse.upperGarment = "scrubs";
-        nurse.lowerGarment = "scrubs";
-        nurse.accessory = "stethoscope";
+        nurse._headWear = "face mask";
+        nurse._gloves = "nitrile gloves";
+        nurse._shoes = "orthopedic sneakers";
+        nurse._upperGarment = "scrubs";
+        nurse._lowerGarment = "scrubs";
+        nurse._accessory = "stethoscope";
 
         Costume detective = new();
-        detective.headWear = "fedora";
-        detective.gloves = "leather gloves";
-        detective.shoes = "loafers";
-        detective.upperGarment = "trenchcoat";
-        detective.lowerGarment = "slacks";
-        detective.accessory = "magnifying glass";
+        detective._headWear = "fedora";
+        detective._gloves = "leather gloves";
+        detective._shoes = "loafers";
+        detective._upperGarment = "trenchcoat";
+        detective._lowerGarment = "slacks";
+        detective._accessory = "magnifying glass";
 
         Costume snorkler = new();
-        snorkler.headWear = "goggles";
-        snorkler.gloves = "rubber gloves";
-        snorkler.shoes = "flippers";
-        snorkler.upperGarment = "wetsuit";
-        snorkler.lowerGarment = "wetsuit";
-        snorkler.accessory = "snorkel";
+        snorkler._headWear = "goggles";
+        snorkler._gloves = "rubber gloves";
+        snorkler._shoes = "flippers";
+        snorkler._upperGarment = "wetsuit";
+        snorkler._lowerGarment = "wetsuit";
+        snorkler._accessory = "snorkel";
 
         Costume rancher = new();
-        rancher.headWear = "cowboy hat";
-        rancher.gloves = "work gloves";
-        rancher.shoes = "boots";
-        rancher.upperGarment = "fancy vest";
-        rancher.lowerGarment = "jeans";
-        rancher.accessory = "lasso";
+        rancher._headWear = "cowboy hat";
+        rancher._gloves = "work gloves";
+        rancher._shoes = "boots";
+        rancher._upperGarment = "fancy vest";
+        rancher._lowerGarment = "jeans";
+        rancher._accessory = "lasso";
 
         Costume bagpiper = new();
-        bagpiper.headWear = "glengarry";
-        bagpiper.gloves = "none";
-        bagpiper.shoes = "ghillie brogues";
-        bagpiper.upperGarment = "jacket";
-        bagpiper.lowerGarment = "kilt";
-        bagpiper.accessory = "sporran";
+        bagpiper._headWear = "glengarry";
+        bagpiper._gloves = "none";
+        bagpiper._shoes = "ghillie brogues";
+        bagpiper._upperGarment = "jacket";
+        bagpiper._lowerGarment = "kilt";
+        bagpiper._accessory = "sporran";
 
         Console.WriteLine("Nurse costume:");
         nurse.ShowWardrobe();
